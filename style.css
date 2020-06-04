@@ -1,0 +1,133 @@
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    }
+
+.navbar{
+    background-image: url("Resources/assets/chevron.png") !important;
+    height: 100%;
+}
+
+main{
+    padding: 5%;
+    background-color: rgba(220, 220, 220, 0.8);
+}
+
+.widget{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.box-container{
+    margin: 5px auto;
+    background-color:#fff;
+    display:inline-table;
+    text-align: center;
+}
+
+.card-block{
+    padding: 20px 40px;
+}
+
+.main-fig{
+    float: left;
+    width: 60%;
+
+}
+
+.right-images{
+    padding: 10px;
+    width: 50%;
+    float: left;
+    border: solid 2px transparent;
+}
+
+.right-images:hover{
+    border-color: tomato;
+}
+
+
+h5, h4, h3, h2{
+    padding: 10px;
+    color: rgb(5, 206, 206);
+    font-family: sans-serif
+    font-weight: bold;
+}
+
+.navbar-light .navbar-brand{
+    color: whitesmoke;
+
+}
+
+.navbar-brand{
+    font-size: 28px;
+    margin-left: 30px;
+    padding: 10px;
+    z-index: 2;
+    border-radius: 4px;
+    font-weight: bolder;
+    text-color: whitesmoke;
+    background-color: rgb(5, 206, 206);
+}
+
+.hover:hover {
+    border-radius: 4px;
+    animation-name: example;
+    animation-duration: 0.25s;
+    border-left: 8px solid red;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.page-footer{
+    background-color:rgb(75, 75, 75);
+    color:gray
+    background-color: #226BFC;
+    border-top: 3px solid #F45140;
+}
+
+.fig-grid{;
+    width: 100%;
+    position: relative;
+}
+.col-sm-12{
+    float: left;
+    width: 50%;
+}
+
+
+.table{
+    font-size: 12px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.large-fig{
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    /* override default class styling for positioning/padding */
+    
+    body {
+        max-width: 750px;
+    }
+    /* .col-sm-12{
+        float: inline;
+        width: 50%;
+        z-index: 2;
+    } */
+}
+@media only screen and (max-width: 375px) {
+    /* override default class styling for positioning/padding */
+    
+    body {
+        max-width: 360px;
+    }
+    /* img {
+        max-width: 200px;
+    } */
+}
