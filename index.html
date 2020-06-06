@@ -7,7 +7,6 @@
   <title>Web Design Homework</title>
 
   <!-- Bring in our bootstrap stylesheet -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -61,19 +60,10 @@
                         
                         <div class="media-body">
                             <img src="Resources\assets\images\Fig1.png" class="main-fig" alt="...">
-                            <h5 class="mt-0">Media heading</h5>
-                            <p>The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                            </p>
-                            <p>The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                                The purpose of this project was to analyze how the weather changes as you get closer to the equator.
-                            </p>
+                            <h5 class="mt-0">Gathering the Data</h5>
+                            <p>The purpose of this project was to analyze how the weather changes as you get closer to the equator.</p>
+                            <p>To accomplish this analysis, we generated a random list of over 500 latitide and longitude points and incorporated citipy to identify the nearest city. We then pulled weather data from OpenWeatherMap API and ran it through our city dataset, gathering data such as temperature, humidity, cloudiness, and wind speed. We ran our analysis based off this data.</p>
+                            <p>Once our dataset was compiled, we used Matplotlib to create a series of scatterplots comparing each weather factor to latitude. We added linear regression lines to determine correlation. This site provides the source data and accompanying visualizations that were part of the analysis, as well as descriptions of any trends that were found.</p>
                         </div>
                     </div>
                 </div>
@@ -97,16 +87,13 @@
         
             </div>
     </main>  
-</div>
-<!-- Footer -->
-<footer class="page-footer font-small blue">
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://mdbootstrap.com/">Coding Bootcamp</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
 </body>
+<!-- Bootstrap Footer -->
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/">Coding Bootcamp</a>
+        </div>
+    </footer>
+
+</html>

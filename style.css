@@ -1,66 +1,19 @@
 
-
 .dropdown:hover>.dropdown-menu {
     display: block;
-    }
+}
 
 .navbar{
     background-image: url("Resources/assets/chevron.png") !important;
     height: 100%;
 }
 
-main{
-    padding: 5%;
-    background-color: rgba(220, 220, 220, 0.8);
-}
-
-.widget{
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 4px;
-}
-
-.box-container{
-    margin: 5px auto;
-    background-color:#fff;
-    display:inline-table;
-    text-align: center;
-}
-
-.card-block{
-    padding: 20px 40px;
-}
-
-.main-fig{
-    float: left;
-    width: 60%;
-
-}
-
-.right-images{
-    padding: 10px;
-    width: 50%;
-    float: left;
-    border: solid 2px transparent;
-}
-
-.right-images:hover{
-    border-color: tomato;
-}
-
-
-h5, h4, h3, h2{
-    padding: 10px;
-    color: rgb(5, 206, 206);
-    font-family: sans-serif
-    font-weight: bold;
-}
-
+/* brand text color */
 .navbar-light .navbar-brand{
     color: whitesmoke;
+} 
 
-}
-
+/* brand logo styling */
 .navbar-brand{
     font-size: 28px;
     margin-left: 30px;
@@ -68,10 +21,10 @@ h5, h4, h3, h2{
     z-index: 2;
     border-radius: 4px;
     font-weight: bolder;
-    text-color: whitesmoke;
     background-color: rgb(5, 206, 206);
 }
 
+/* hover effects for navbar items */
 .hover:hover {
     border-radius: 4px;
     animation-name: example;
@@ -80,17 +33,65 @@ h5, h4, h3, h2{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-.page-footer{
-    background-color:rgb(75, 75, 75);
-    color:gray
-    background-color: #226BFC;
-    border-top: 3px solid #F45140;
+/* main background and position */
+main{
+    padding: 5%;
+    background-color: rgba(220, 220, 220, 0.8);
 }
+
+/* data emelent containers */
+.widget{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* visualizations image container and styling */
+.box-container{
+    margin: 5px auto;
+    background-color:#fff;
+    display:inline-table;
+    text-align: center;
+}
+ /* main page image */
+.main-fig{
+    float: left;
+    width: 60%;
+}
+
+/* smaller visualization images */
+.right-images{
+    padding: 10px;
+    width: 50%;
+    float: left;
+    border: solid 2px transparent;
+}
+
+/* visualization image hover effects */
+.right-images:hover{
+    border-color: tomato;
+}
+
+/* header styling */
+h5, h4, h3, h2{
+    padding: 10px;
+    color: rgb(5, 206, 206);
+    font-family: sans-serif
+    font-weight: bold;
+}
+
+/* paragraph text styling */
+p{
+    color: rgb(82, 80, 80); 
+    font-size: 16px;
+}
+
 
 .fig-grid{;
     width: 100%;
     position: relative;
 }
+
 .col-sm-12{
     float: left;
     width: 50%;
@@ -106,6 +107,15 @@ h5, h4, h3, h2{
 .large-fig{
     width: 100%;
 }
+
+/* footer */
+.page-footer{
+    background-color:rgb(75, 75, 75);
+    color:gray
+    background-color: #226BFC;
+    border-top: 3px solid #F45140;
+}
+
 
 
 
