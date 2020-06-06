@@ -86,26 +86,22 @@ p{
     font-size: 16px;
 }
 
-
+/* comparison page fig layout */
 .fig-grid{;
     width: 100%;
     position: relative;
 }
 
-.col-sm-12{
-    float: left;
-    width: 50%;
+/* comparison page fig width */
+.large-fig{
+    width: 100%;
 }
 
-
+/* table style */
 .table{
     font-size: 12px;
     width: 100%;
     table-layout: fixed;
-}
-
-.large-fig{
-    width: 100%;
 }
 
 /* footer */
@@ -117,27 +113,16 @@ p{
 }
 
 
-
-
 @media only screen and (max-width: 767px) {
-    /* override default class styling for positioning/padding */
     
     body {
         max-width: 750px;
     }
-    /* .col-sm-12{
-        float: inline;
-        width: 50%;
-        z-index: 2;
-    } */
 }
 @media only screen and (max-width: 375px) {
-    /* override default class styling for positioning/padding */
     
     body {
         max-width: 360px;
     }
-    /* img {
-        max-width: 200px;
-    } */
+
 }
